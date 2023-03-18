@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="wangduiwen的个人博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="wangduiwen">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="wangduiwen">
+<meta property="og:description" content="wangduiwen的个人博客">
+<meta property="og:locale">
+<meta property="article:author" content="wangduiwen">
+<meta property="article:tag" content="hexo框架">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://example.com/"/>
+
+
+
+
+
+  <title>wangduiwen</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">wangduiwen</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">王兑文</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/18/%E7%94%A8Hexo%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangduiwen">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2023/03/18/%E7%94%A8Hexo%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" itemprop="url">Untitled</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2023-03-18T22:03:49+08:00">
+                2023-03-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="用Hexo快速搭建个人博客"><a href="#用Hexo快速搭建个人博客" class="headerlink" title="用Hexo快速搭建个人博客"></a>用Hexo快速搭建个人博客</h1><h4 id="一、介绍"><a href="#一、介绍" class="headerlink" title="一、介绍"></a>一、介绍</h4><p>​	<a href="https://link.zhihu.com/?target=https://hexo.io/zh-cn/">Hexo</a>是一个基于 node.js的快速生成静态博客的开源框架,支持 Markdown和大多数 Octopress插件,一个命令即可部署到 Github页面、 Giteee、 Heroku等,强大的APl,可无限扩展,拥有数百个主题和插件。</p>
+<h4 id="二、安装Node-js"><a href="#二、安装Node-js" class="headerlink" title="二、安装Node.js"></a>二、安装Node.js</h4><p>网址：<a target="_blank" rel="noopener" href="https://nodejs.org/en">Node.js (nodejs.org)</a></p>
+<p>下载完毕后后打开命令行，输入<code>node -v</code>查看版本。返回如下图所示，表示安装成功。</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318204217347.png" alt="image-20230318204217347" style="zoom:50%;" />
+
+
+
+<h4 id="三、搭建"><a href="#三、搭建" class="headerlink" title="三、搭建"></a>三、搭建</h4><h5 id="1、安装Hexo"><a href="#1、安装Hexo" class="headerlink" title="1、安装Hexo"></a>1、安装Hexo</h5><p>在命令行输入以下命令来安装Hexo：<code>npm install hexo-cli -g</code></p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318204617920.png" alt="image-20230318204617920" style="zoom:50%;" />
+
+<p>因为我之前下过，所以这里显示的是版本更新。</p>
+<h5 id="2、初始化博客目录"><a href="#2、初始化博客目录" class="headerlink" title="2、初始化博客目录"></a>2、初始化博客目录</h5><p>输入以下命令：<code>hexo init xxx.github.io</code> (这里的xxx换成你自己的英文名)，<strong>这个文件夹很重要，接下来不止一次用到，为了方便，后面都叫它<em>目录文件夹</em></strong>。</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318205154896.png" alt="image-20230318205154896" style="zoom:50%;" />
+
+<h5 id="3、进入目录"><a href="#3、进入目录" class="headerlink" title="3、进入目录"></a>3、进入目录</h5><p>输入以下命令：<code>cd xxx.github.io</code> （这里的xxx换成你自己的英文名）</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318205403802.png" alt="image-20230318205403802" style="zoom:50%;" />
+
+<h5 id="4、在该目录下安装"><a href="#4、在该目录下安装" class="headerlink" title="4、在该目录下安装"></a>4、在该目录下安装</h5><p>输入以下命令：<code>npm install</code></p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318205623330.png" alt="image-20230318205623330" style="zoom:50%;" />
+
+<h5 id="5、生成静态页面"><a href="#5、生成静态页面" class="headerlink" title="5、生成静态页面"></a>5、生成静态页面</h5><p>输入以下命令：<code>hexo clean hexo g</code> （g是generate，生成的意思）</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318205929296.png" alt="image-20230318205929296" style="zoom:50%;" />
+
+<h5 id="6、运行网站"><a href="#6、运行网站" class="headerlink" title="6、运行网站"></a>6、运行网站</h5><p>输入以下命令：<code>hexo s</code> （s是server，在服务器运行的意思）</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318210143653.png" alt="image-20230318210143653" style="zoom:50%;" />
+
+<h5 id="7、登陆网站"><a href="#7、登陆网站" class="headerlink" title="7、登陆网站"></a>7、登陆网站</h5><p>打开浏览器，输入网址：<code>localhost:4000</code> </p>
+<p><img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318210346796.png" alt="image-20230318210346796"></p>
+<p>出现以上界面，说明一个简易的博客就搭建好了。</p>
+<h4 id="四、完善"><a href="#四、完善" class="headerlink" title="四、完善"></a>四、完善</h4><h5 id="1、修改配置"><a href="#1、修改配置" class="headerlink" title="1、修改配置"></a>1、修改配置</h5><p>打开<em><strong>目录文件夹</strong></em>，找到配置文件（ _config.yml ），目录文件夹地址如下</p>
+<p><img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318211218239.png" alt="image-20230318211218239"></p>
+<p>用IDEA打开配置文件</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318211306534.png" alt="image-20230318211306534" style="zoom:50%;" />
+
+<p>修改个人信息如下，详细的配置可以看官方的配置文件<a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration.html">Configuration | Hexo</a></p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318214714500.png" alt="image-20230318214714500" style="zoom:50%;" />
+
+<h5 id="2、选择主题"><a href="#2、选择主题" class="headerlink" title="2、选择主题"></a>2、选择主题</h5><p>可以在官网查看各式各样的主题<a target="_blank" rel="noopener" href="https://hexo.io/themes/">Themes | Hexo</a></p>
+<p>这里选择<a target="_blank" rel="noopener" href="https://theme-next.js.org/">NexT - Theme for Hexo (theme-next.js.org)</a>作为演示</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318213456117.png" alt="image-20230318213456117" style="zoom:50%;" />
+
+<h5 id="3、下载主题"><a href="#3、下载主题" class="headerlink" title="3、下载主题"></a>3、下载主题</h5><p>首先下载<a target="_blank" rel="noopener" href="https://git-scm.com/">Git (git-scm.com)</a></p>
+<p>在右击<em><strong>目录文件夹</strong></em>，点击“Git Bash Here”,在弹出的窗口中输入</p>
+<p><code>git clone https://github.com/iissnan/hexo-theme-next themes/next</code></p>
+<p>（不同的主题下载网址不同，但是每一个主题的作者都会给出下载地址）</p>
+<p>下载主题</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318214418235.png" alt="image-20230318214418235" style="zoom:50%;" />
+
+<h5 id="4、配置主题"><a href="#4、配置主题" class="headerlink" title="4、配置主题"></a>4、配置主题</h5><p>主题下载完之后，在你<em><strong>目录文件夹</strong></em>中的 _config.yml 文件中，修改 theme 为你的主题名字</p>
+<img src="C:\Users\王佥\AppData\Roaming\Typora\typora-user-images\image-20230318214645415.png" alt="image-20230318214645415" style="zoom:50%;" />
+
+
+
+<h5 id="5、运行主题"><a href="#5、运行主题" class="headerlink" title="5、运行主题"></a>5、运行主题</h5><p>在命令行输入 <code>Ctrl+C</code> 停止之前的运行</p>
+<p>接着输入<code>npm install hexo-renderer-swig</code></p>
+<p>最后依次输入<code>hexo g hexo s</code> 重新运行</p>
+<p>刷新一下之前的网页，可以发现主题更改了</p>
+<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20230318223352108.png" alt="image-20230318223352108" style="zoom:50%;" />
+
+<h4 id="五、创建文章"><a href="#五、创建文章" class="headerlink" title="五、创建文章"></a>五、创建文章</h4><h5 id="1、写文章"><a href="#1、写文章" class="headerlink" title="1、写文章"></a>1、写文章</h5><p>先用Typora写好，之后保存在<em><strong>目录文件夹</strong></em>的source文件中的posts文件里面。再次刷新网页，可以看见文章被上传了。</p>
+<p><img src="/../../../AppData/Roaming/Typora/typora-user-images/image-20230318223431619.png" alt="image-20230318223431619"></p>
+<h5 id="2、给文章添加标签"><a href="#2、给文章添加标签" class="headerlink" title="2、给文章添加标签"></a>2、给文章添加标签</h5><p>先停止运行</p>
+<p>输入命令<code>hexo new page tags</code></p>
+<p>这时候你的 source&#x2F; 下生成 tags&#x2F;index.md 文件，我们将其打开，然后把它改成：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure>
+
+<p>这时候你要为你的文章打上标签就可以在文章的头部写上：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tags:</span><br><span class="line">    - hexo</span><br><span class="line"> 	- 教程</span><br></pre></td></tr></table></figure>
+
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/18/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangduiwen">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2023/03/18/hello-world/" itemprop="url">Hello World</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2023-03-18T20:50:42+08:00">
+                2023-03-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">wangduiwen</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
