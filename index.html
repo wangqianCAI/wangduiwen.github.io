@@ -384,15 +384,20 @@
 
 <h4 id="五、创建文章"><a href="#五、创建文章" class="headerlink" title="五、创建文章"></a>五、创建文章</h4><h5 id="1、写文章"><a href="#1、写文章" class="headerlink" title="1、写文章"></a>1、写文章</h5><p>先用Typora写好，之后保存在<em><strong>目录文件夹</strong></em>的source文件中的posts文件里面。再次刷新网页，可以看见文章被上传了。</p>
 <p><img src="/../../../AppData/Roaming/Typora/typora-user-images/image-20230318223431619.png" alt="image-20230318223431619"></p>
-<h5 id="2、给文章添加标签"><a href="#2、给文章添加标签" class="headerlink" title="2、给文章添加标签"></a>2、给文章添加标签</h5><p>先停止运行</p>
-<p>输入命令<code>hexo new page tags</code></p>
-<p>这时候你的 source&#x2F; 下生成 tags&#x2F;index.md 文件，我们将其打开，然后把它改成：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure>
+<h5 id="2、给文章添加标签、分类以及评论"><a href="#2、给文章添加标签、分类以及评论" class="headerlink" title="2、给文章添加标签、分类以及评论"></a>2、给文章添加标签、分类以及评论</h5><p>大家可以自行学习</p>
+<h4 id="六、部署到Github（也可以自己买服务器）"><a href="#六、部署到Github（也可以自己买服务器）" class="headerlink" title="六、部署到Github（也可以自己买服务器）"></a>六、部署到Github（也可以自己买服务器）</h4><h5 id="1、创建-Github-pages-仓库"><a href="#1、创建-Github-pages-仓库" class="headerlink" title="1、创建 Github pages 仓库"></a>1、创建 Github pages 仓库</h5><p>接着创建一个 xxx.github.io 的 public 仓库，这里的xxx写你的名字，那么到时别人就可以通过 <code>xxx.github.io</code> 来访问你的网站了。</p>
+<p>创建完成之后，那么你就有自己的 Git 地址了，如下图：</p>
+<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20230318230726573.png" alt="image-20230318230726573" style="zoom:50%;" />
 
-<p>这时候你要为你的文章打上标签就可以在文章的头部写上：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tags:</span><br><span class="line">    - hexo</span><br><span class="line"> 	- 教程</span><br></pre></td></tr></table></figure>
+<h5 id="2、安装-hexo-deployer-git"><a href="#2、安装-hexo-deployer-git" class="headerlink" title="2、安装 hexo-deployer-git"></a>2、安装 hexo-deployer-git</h5><p>在你的博客目录下输入如下命令，这样你在本地写的文章才能 push 到 <a target="_blank" rel="noopener" href="https://github.com/wistbean/wistbean.github.io">GitHub</a> 上面去：</p>
+<p><code>npm install hexo-deployer-git --save</code></p>
+<h5 id="3、配置git地址"><a href="#3、配置git地址" class="headerlink" title="3、配置git地址"></a>3、配置git地址</h5><p>打开你的配置文件，然后输入你的 git 地址（第1步里的）</p>
+<p><img src="/../../../AppData/Roaming/Typora/typora-user-images/image-20230318230513637.png" alt="image-20230318230513637"></p>
+<h5 id="4、将网站推送到Github"><a href="#4、将网站推送到Github" class="headerlink" title="4、将网站推送到Github"></a>4、将网站推送到Github</h5><p>输入命令<code>hexo d</code> （d 就是 deploy ， 部署上去的意思。）</p>
+<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20230318230859464.png" alt="image-20230318230859464" style="zoom:50%;" />
 
-
+<h5 id="5、也可以用自己的域名"><a href="#5、也可以用自己的域名" class="headerlink" title="5、也可以用自己的域名"></a>5、也可以用自己的域名</h5><p>略</p>
+<h5 id="6、再次运行"><a href="#6、再次运行" class="headerlink" title="6、再次运行"></a>6、再次运行</h5>
           
         
       
